@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded documents and personal data
+documents/*
+!documents/.gitkeep
+
+# Tests and temporary files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
